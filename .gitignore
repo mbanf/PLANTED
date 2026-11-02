@@ -1,0 +1,41 @@
+# Data (too large for git — download via scripts/00_download_data.sh)
+data/
+models/
+
+# Large result artifacts (embeddings, model weights)
+results/*.pt
+results/*.npz
+results/*.tar.gz
+results/v1_frozen_embeddings/*.pt
+results/deepwheat_baseline/*.csv
+
+# Keep result JSONs and figures
+!results/**/*.json
+!paper/figures/
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+*.egg-info/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/paper/*.aux
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+*.swp
+
+# Compressed archives
+*.tar.gz

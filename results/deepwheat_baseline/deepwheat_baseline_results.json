@@ -1,0 +1,60 @@
+{
+  "results": {
+    "leaf": {
+      "pcc_log": 0.863682210445404,
+      "r2_log": 0.7401309609413147,
+      "pcc_tpm": 0.726738452911377,
+      "r2_tpm": 0.47383612394332886,
+      "n_test": 11733,
+      "n_params": 37835613
+    },
+    "spike": {
+      "pcc_log": 0.8197,
+      "r2_log": 0.3502,
+      "pcc_tpm": null,
+      "r2_tpm": null,
+      "n_test": 11732,
+      "n_params": 40004304,
+      "note": "Architecture reconstructed from weight shapes (best_params.json had incorrect hyperparameters: actual k1=89, k2=186, ksz=59, nrb=3, rksz=3)"
+    },
+    "vl": {
+      "pcc_log": 0.11075402796268463,
+      "r2_log": -0.5069602727890015,
+      "pcc_tpm": 0.010660195723176003,
+      "r2_tpm": -0.02934885025024414,
+      "n_test": 11712,
+      "n_params": 54288370
+    },
+    "e5": {
+      "pcc_log": 0.3827648162841797,
+      "r2_log": 0.028811514377593994,
+      "pcc_tpm": 0.1663067638874054,
+      "r2_tpm": 0.015489339828491211,
+      "n_test": 11712,
+      "n_params": 24175485
+    },
+    "e7": {
+      "pcc_log": 0.30281829833984375,
+      "r2_log": -0.09925079345703125,
+      "pcc_tpm": 0.11075100302696228,
+      "r2_tpm": 0.004344761371612549,
+      "n_test": 11712,
+      "n_params": 36850371
+    },
+    "e9": {
+      "pcc_log": 0.2870379090309143,
+      "r2_log": -0.24536097049713135,
+      "pcc_tpm": 0.09189660847187042,
+      "r2_tpm": 0.005287230014801025,
+      "n_test": 11712,
+      "n_params": 51718479
+    }
+  },
+  "mean_pcc_log": 0.4611,
+  "mean_r2_log": 0.0446,
+  "split": {
+    "train_frac": 0.8,
+    "val_frac": 0.1,
+    "seed": 42
+  }
+}

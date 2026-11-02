@@ -1,0 +1,14 @@
+\section{Discussion}\label{sec:discussion}
+
+\mytool demonstrates that genomic foundation models, when properly adapted via LoRA, can serve as powerful feature extractors for multi-tissue expression prediction in crops. Three findings stand out.
+
+First, LoRA adaptation is transformative: the same simple prediction head improves from PCC\,=\,0.744 to 0.910 when switching from frozen to LoRA-adapted embeddings. This contrasts with common practice in genomics where foundation models are used as frozen feature extractors, and suggests that even lightweight fine-tuning (13\,MB adapter, 3 epochs) can substantially improve downstream task performance.
+
+Second, with strong embeddings, architectural complexity in the prediction head is unnecessary. Variant A (simple concatenation, 1.0M params) outperforms the cross-attention + FiLM head (10.6M params), reversing the ranking observed with frozen embeddings. This has practical implications: smaller heads are faster to train, less prone to overfitting, and easier to deploy.
+
+Third, the unified multi-tissue approach enabled by FiLM-style tissue conditioning eliminates the need for separate per-tissue models, as required by DeepWheat. This not only reduces the parameter count by $>$200$\times$ but also enables cross-tissue knowledge sharing, which likely contributes to the improved performance on developmental tissues where DeepWheat's per-tissue CNNs lack sufficient training signal. We note that our head-to-head comparison loads DeepWheat's own pretrained Zenodo models and evaluates them on our test split---leaf (PCC\,=\,0.864) and spike (PCC\,=\,0.820) performance is reasonable, but the four developmental tissues show substantially lower performance (mean PCC\,=\,0.271), with three tissues producing negative $R^2$, suggesting that per-tissue CNNs do not generalize well beyond tissues with strong, ubiquitous expression patterns.
+
+Limitations include evaluation on a single species (wheat), the requirement for epigenomic mark data at prediction time, and the lack of condition-specific (e.g., drought, heat stress) expression prediction. Future work will extend \mytool to additional crop species and environmental conditions, leveraging the cross-species representations learned by \botanic.
+
+\paragraph{Availability.}
+\mytool, including LoRA adapter weights, pretrained expression heads, and analysis scripts, is available at \url{https://github.com/mbanf/PLANTED} under the MIT license. Inference requires only a GPU with 8\,GB VRAM.

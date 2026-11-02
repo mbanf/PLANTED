@@ -1,0 +1,15 @@
+torch>=2.4
+transformers>=4.55,<5
+safetensors
+huggingface_hub
+peft>=0.13
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+matplotlib
+h5py
+biopython
+intervaltree
+pyfaidx
