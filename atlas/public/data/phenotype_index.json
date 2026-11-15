@@ -1,0 +1,542 @@
+{
+  "Fruit quality": {
+    "count": 248,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr1G00284950",
+        "tier": "Tier 1",
+        "score": 10.01,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.506,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Ethylene pathway: may affect ripening or stress respo",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr4G00162260",
+        "tier": "Tier 1",
+        "score": 9.86,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.856,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via transcription",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr3G00091590",
+        "tier": "Tier 2",
+        "score": 9.52,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.524,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr6G00015960",
+        "tier": "Tier 1",
+        "score": 9.33,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.331,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via en",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr1G00302570",
+        "tier": "Tier 1",
+        "score": 9.25,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.755,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via enhancer prim",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      }
+    ]
+  },
+  "Hormone signaling": {
+    "count": 141,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr1G00284950",
+        "tier": "Tier 1",
+        "score": 10.01,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.506,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Ethylene pathway: may affect ripening or stress respo",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr3G00091590",
+        "tier": "Tier 2",
+        "score": 9.52,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.524,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr7G00324770",
+        "tier": "Tier 2",
+        "score": 9.23,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.731,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ripening or",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr4G00159770",
+        "tier": "Tier 1",
+        "score": 9.03,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.53,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Editing goal: decrease expression via ",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr1G00294320",
+        "tier": "Tier 2",
+        "score": 8.13,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 1.126,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Regulatory: may alter downstream gene networks and developmental programs; Ethylene pathway: may affect ripening or stress response; ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      }
+    ]
+  },
+  "Stress tolerance": {
+    "count": 140,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr1G00284950",
+        "tier": "Tier 1",
+        "score": 10.01,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.506,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Ethylene pathway: may affect ripening or stress respo",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr3G00091590",
+        "tier": "Tier 2",
+        "score": 9.52,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.524,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr7G00324770",
+        "tier": "Tier 2",
+        "score": 9.23,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.731,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ripening or",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr4G00159770",
+        "tier": "Tier 1",
+        "score": 9.03,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.53,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Editing goal: decrease expression via ",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr1G00294320",
+        "tier": "Tier 2",
+        "score": 8.13,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 1.126,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Regulatory: may alter downstream gene networks and developmental programs; Ethylene pathway: may affect ripening or stress response; ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      }
+    ]
+  },
+  "Nutrition": {
+    "count": 133,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr1G00284950",
+        "tier": "Tier 1",
+        "score": 10.01,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.506,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Ethylene pathway: may affect ripening or stress respo",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr4G00162260",
+        "tier": "Tier 1",
+        "score": 9.86,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.856,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via transcription",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr1G00302570",
+        "tier": "Tier 1",
+        "score": 9.25,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.755,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via enhancer prim",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr7G00324770",
+        "tier": "Tier 2",
+        "score": 9.23,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.731,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ripening or",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr1G00294320",
+        "tier": "Tier 2",
+        "score": 8.13,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 1.126,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Regulatory: may alter downstream gene networks and developmental programs; Ethylene pathway: may affect ripening or stress response; ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      }
+    ]
+  },
+  "Yield & growth": {
+    "count": 119,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr4G00162260",
+        "tier": "Tier 1",
+        "score": 9.86,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.856,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via transcription",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr1G00302570",
+        "tier": "Tier 1",
+        "score": 9.25,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.755,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via enhancer prim",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr7G00324770",
+        "tier": "Tier 2",
+        "score": 9.23,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.731,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ripening or",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr2G00227110",
+        "tier": "Tier 1",
+        "score": 8.76,
+        "tissue": "anthers",
+        "action": "activate",
+        "effect": 0.755,
+        "phenotype": "Tissue context: Pollen development, male fertility; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via transcription elongation (ef",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr1G00294320",
+        "tier": "Tier 2",
+        "score": 8.13,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 1.126,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Regulatory: may alter downstream gene networks and developmental programs; Ethylene pathway: may affect ripening or stress response; ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      }
+    ]
+  },
+  "Shelf life": {
+    "count": 111,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr4G00162260",
+        "tier": "Tier 1",
+        "score": 9.86,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.856,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via transcription",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr1G00302570",
+        "tier": "Tier 1",
+        "score": 9.25,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.755,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Metabolic: may alter fruit composition, flavor compounds, or nutritional content; Editing goal: increase expression via enhancer prim",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr7G00324770",
+        "tier": "Tier 2",
+        "score": 9.23,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.731,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ripening or",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr1G00294320",
+        "tier": "Tier 2",
+        "score": 8.13,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 1.126,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Regulatory: may alter downstream gene networks and developmental programs; Ethylene pathway: may affect ripening or stress response; ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr5G00266310",
+        "tier": "Tier 2",
+        "score": 8.01,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 1.006,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Function unknown: experimental validation needed; Editing goal: increase expression via transcription elongation (effect=1.01)",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      }
+    ]
+  },
+  "Other": {
+    "count": 50,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr5G00233110",
+        "tier": "Tier 2",
+        "score": 8.12,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.615,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Function unknown: experimental validation needed; Editing goal: increase expression via enhancer priming (effect=1.62)",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr5G00271360",
+        "tier": "Tier 2",
+        "score": 7.62,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.119,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Function unknown: experimental validation needed; Editing goal: increase expression via transcription elongation (effect=1",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr6G00011960",
+        "tier": "Tier 2",
+        "score": 7.22,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.219,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Regulatory: may alter downstream gene networks and developmental programs; Editing goal: increase expression via enhancer ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr6G00001610",
+        "tier": "Tier 2",
+        "score": 7.0,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 3.122,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Regulatory: may alter downstream gene networks and developmental programs; Editing goal: increase expression via enhancer ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr3G00108070",
+        "tier": "Tier 2",
+        "score": 6.87,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.374,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Function unknown: experimental validation needed; Editing goal: increase expression via enhancer priming (effect=1.37)",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      }
+    ]
+  },
+  "Signal transduction": {
+    "count": 49,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr3G00091590",
+        "tier": "Tier 2",
+        "score": 9.52,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 1.524,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr7G00324770",
+        "tier": "Tier 2",
+        "score": 9.23,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 0.731,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ripening or",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr4G00159770",
+        "tier": "Tier 1",
+        "score": 9.03,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.53,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Editing goal: decrease expression via ",
+        "mark": "H3K36me3",
+        "tool": "dCas9-SETD2 to mark; complex to remove"
+      },
+      {
+        "gene_id": "FvesChr3G00074300",
+        "tier": "Tier 2",
+        "score": 8.0,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.503,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Editing goal: decrease expression via ",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr5G00249980",
+        "tier": "Tier 2",
+        "score": 7.69,
+        "tissue": "anthers",
+        "action": "silence",
+        "effect": 0.688,
+        "phenotype": "Tissue context: Pollen development, male fertility; Signal transduction: may affect hormone response, stress signaling, or developmental timing; Ethylene pathway: may affect ripening or stress respons",
+        "mark": "H3K4me3",
+        "tool": "dCas9-LSD1 to silence; dCas9-SET1 to activate"
+      }
+    ]
+  },
+  "Transport": {
+    "count": 11,
+    "top_targets": [
+      {
+        "gene_id": "FvesChr1G00284950",
+        "tier": "Tier 1",
+        "score": 10.01,
+        "tissue": "late-fruit",
+        "action": "silence",
+        "effect": 0.506,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Ethylene pathway: may affect ripening or stress respo",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr2G00196120",
+        "tier": "Tier 2",
+        "score": 7.56,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 2.063,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Editing goal: increase expression via enhanc",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr3G00070700",
+        "tier": "Tier 2",
+        "score": 7.1,
+        "tissue": "late-fruit",
+        "action": "activate",
+        "effect": 0.599,
+        "phenotype": "Tissue context: Fruit ripening, flavor/color development, softening; Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Ethylene pathway: may affect ripening or stress respo",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      },
+      {
+        "gene_id": "FvesChr3G00082670",
+        "tier": "Tier 2",
+        "score": 6.29,
+        "tissue": "carpels",
+        "action": "activate",
+        "effect": 0.791,
+        "phenotype": "Tissue context: Reproductive organ development (gynoecium, pistil formation); Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Editing goal: increase expression via active",
+        "mark": "H3K9K14ac",
+        "tool": "dCas9-HDAC to silence; dCas9-GCN5 to activate"
+      },
+      {
+        "gene_id": "FvesChr2G00198060",
+        "tier": "Tier 2",
+        "score": 6.2,
+        "tissue": "seed",
+        "action": "activate",
+        "effect": 1.198,
+        "phenotype": "Tissue context: Seed development and maturation, nutrient storage; Transport: may affect nutrient allocation, sugar loading, or ion homeostasis; Ethylene pathway: may affect ripening or stress respons",
+        "mark": "H3K4me1",
+        "tool": "dCas9-LSD1 (demethylase) to remove; dCas9-MLL to add"
+      }
+    ]
+  }
+}

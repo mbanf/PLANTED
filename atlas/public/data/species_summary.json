@@ -1,0 +1,72 @@
+{
+  "wheat": {
+    "name": "Wheat",
+    "latin": "Triticum aestivum",
+    "tier": 3,
+    "model_r": 0.884,
+    "genes": 117319,
+    "editable": 59390,
+    "tissue_specific": 15720,
+    "tissues": 6,
+    "marks": 5,
+    "eqtl_n": 21443,
+    "eqtl_pct": 18.3,
+    "icon": "\ud83c\udf3e"
+  },
+  "rice": {
+    "name": "Rice",
+    "latin": "Oryza sativa",
+    "tier": 3,
+    "model_r": 0.142,
+    "genes": 4461,
+    "editable": 3227,
+    "tissue_specific": 190,
+    "tissues": 4,
+    "marks": 3,
+    "eqtl_n": 1259,
+    "eqtl_pct": 28.2,
+    "icon": "\ud83c\udf3e"
+  },
+  "arabidopsis": {
+    "name": "Arabidopsis",
+    "latin": "Arabidopsis thaliana",
+    "tier": 2,
+    "model_r": 0.424,
+    "genes": 4732,
+    "editable": 4731,
+    "tissue_specific": 6,
+    "tissues": 6,
+    "marks": 4,
+    "eqtl_n": 0,
+    "eqtl_pct": 0,
+    "icon": "\ud83c\udf31"
+  },
+  "strawberry": {
+    "name": "Strawberry",
+    "latin": "Fragaria vesca",
+    "tier": 2,
+    "model_r": 0.59,
+    "genes": 36173,
+    "editable": 28229,
+    "tissue_specific": 363,
+    "tissues": 9,
+    "marks": 7,
+    "eqtl_n": 4529,
+    "eqtl_pct": 12.5,
+    "icon": "\ud83c\udf53"
+  },
+  "tomato": {
+    "name": "Tomato",
+    "latin": "Solanum lycopersicum",
+    "tier": 2,
+    "model_r": 0.237,
+    "genes": 31800,
+    "editable": 21752,
+    "tissue_specific": 38,
+    "tissues": 10,
+    "marks": 4,
+    "eqtl_n": 0,
+    "eqtl_pct": 0,
+    "icon": "\ud83c\udf45"
+  }
+}

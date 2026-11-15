@@ -1,6 +1,6 @@
 # Data (too large for git — download via scripts/00_download_data.sh)
-data/
-models/
+/data/
+/models/
 
 # Large result artifacts (embeddings, model weights)
 results/*.pt
@@ -12,6 +12,13 @@ results/deepwheat_baseline/*.csv
 # Keep result JSONs and figures
 !results/**/*.json
 !paper/figures/
+
+# Atlas build artifacts
+atlas/node_modules/
+atlas/dist/
+
+# MCP server venv
+mcp/.venv/
 
 # Python
 __pycache__/
